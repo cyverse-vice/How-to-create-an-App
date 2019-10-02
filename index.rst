@@ -53,24 +53,6 @@ Platform(s)
       - |DE Manual|
       - |Discovery Environment Guide|
 
-Input and example data
-~~~~~~~~~~~~~~~~~~~~~~
-
-*In order to complete this quickstart you will need to have the following inputs prepared*
-
-.. list-table::
-    :header-rows: 1
-
-    * - Input File(s)
-      - Format
-      - Preparation/Notes
-      - Example Data
-    * -
-      -
-      -
-      -
-
-----
 
 *Steps to Follow*
 -----------------
@@ -163,11 +145,23 @@ Input and example data
 
  3.3 Click on Tools --> Add tool
 
-|De create tool|
 
  3.4 Enter name you want to give your tool and fill the form with the required fields
 
-|De tool name|
+|De create tool|
+
+3.5 Below are specific ports for vice tools in DE which need to be entered as ENTRYPOINTS based on the tool you are creating.
+
+
+  +------------+---------+
+  | Type       | Port    |
+  +------------+---------+
+  | Jupyter    | 8888    |
+  +------------+---------+
+  | Rstudio    | 80      |
+  +------------+---------+
+  | Shiny      | 3838    |
+  +------------+---------+
 
 
 *Summary*
